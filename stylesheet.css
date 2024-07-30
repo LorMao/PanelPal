@@ -29,7 +29,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(223, 145, 0);
     text-decoration: none;
 }
 
@@ -37,28 +37,57 @@ nav ul li a {
     padding: 20px;
 }
 
-.quote-section, .applicants-section {
+.quote-section,
+.applicants-section {
     margin-bottom: 40px;
 }
 
 .quote-section {
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Optional: maximum width */
+    height: auto; /* Adjust height as needed */
     background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
-    padding: 50px 20px;
+    padding: 20px;
     position: relative;
-    color: black;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text inside the section */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .quote-panel {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: white;
+    text-align: center; /* Center text inside the panel */
+    height: 100%; /* Ensure it takes the full height of the parent */
+    width: 100%;
+}
+
+.img-box-1 {
+    width: 1000px;
+    height: 300px;
+    background-image: url('imgs/quote_img1.png');
+    background-position: center;
+    background-size: cover; /* Ensure the background image covers the entire div */
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 footer {
     background-color: #333;
     color: white;
     padding: 20px;
-    text-align: cen
+    text-align: center; /* Fix the typo in the original code */
+}
