@@ -1,4 +1,4 @@
-# PanelPal
+# PanelPals
 
 
 ## Description
